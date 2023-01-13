@@ -175,7 +175,8 @@ li:hover {
     font-family: 'Oswald', sans-serif;
     color: #fff;
     font-size: 17px;
-    margin-left: 10px;
+    margin-left: 60px;
+    display:flex;
     
     
 }
