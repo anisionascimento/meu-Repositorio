@@ -60,35 +60,55 @@ li:hover {
     -webkit-animation: arrow 2s infinite;
 }
 
-@keyframes arrow
-{
-0% {opacity:0}
-40% {opacity:1}
-80% {opacity:0}
-100% {opacity:0}
+@keyframes arrow {
+    0% {
+        opacity: 0
+    }
+
+    40% {
+        opacity: 1
+    }
+
+    80% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 0
+    }
 }
 
-@-webkit-keyframes arrow
-{
-0% {opacity:0}
-40% {opacity:1}
-80% {opacity:0}
-100% {opacity:0}
+@-webkit-keyframes arrow {
+    0% {
+        opacity: 0
+    }
+
+    40% {
+        opacity: 1
+    }
+
+    80% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 0
+    }
 }
 
 .arrows path.a1 {
-    animation-delay:  -1s;
-    -webkit-animation-delay:  -1s;
+    animation-delay: -1s;
+    -webkit-animation-delay: -1s;
 }
 
 .arrows path.a2 {
-    animation-delay:  -0.5s;
-    -webkit-animation-delay:  -0.5s;
+    animation-delay: -0.5s;
+    -webkit-animation-delay: -0.5s;
 }
 
 .arrows path.a3 {
-    animation-delay:  0s;
-    -webkit-animation-delay:  0s;
+    animation-delay: 0s;
+    -webkit-animation-delay: 0s;
 }
 
 .content-container {
@@ -103,6 +123,9 @@ li:hover {
     align-items: center;
     justify-content: center;
     background-image: url('./akin-cakiner-xKBmqz66gEs-unsplash.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -176,7 +199,30 @@ li:hover {
     color: #fff;
     font-size: 17px;
     margin-left: 60px;
-   
-    
+
+}
+
+.project-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url('notebook.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.project-img {
+    width: 50%;
+    height: 50%;
+}
+
+
+.project-text {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
     
 }
